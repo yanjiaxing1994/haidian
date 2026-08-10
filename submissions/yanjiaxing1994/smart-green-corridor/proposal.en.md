@@ -275,3 +275,7 @@ Official site boundary and key area polygons are provisional. All spatial metric
 - Machine index: `sources.json`, `metrics.json`, `compliance_matrix.json`, `standard_matrix.json`, `design_depth_matrix.json`
 
 <!-- revision: 2026-08-10-v4-comprehensive-en -->
+
+<!--3dfd37d0-->
+<!--c05b42da-->
+<!--34b57e9d-->
