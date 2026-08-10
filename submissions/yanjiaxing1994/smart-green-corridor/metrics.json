@@ -13,21 +13,23 @@
         "geometry/site_boundary.geojson"
       ],
       "formula": "polygon_area(submitted_site_boundary)",
-      "confidence": "high",
+      "confidence": "medium",
       "assumptions": [
-        "Trusted official boundary is present in the site package."
+        "Provisional boundary from DATA-SRC-PROVISIONAL-BOUNDARIES-20260605. Recalculate upon official redline release."
       ]
     },
     "building_footprint_area_sqm": {
       "status": "known",
-      "value": 310807.184,
+      "value": 200990.914,
       "unit": "sqm",
       "source_files": [
         "geometry/buildings.geojson"
       ],
       "formula": "sum(polygon_area(building_footprints))",
       "confidence": "medium",
-      "assumptions": []
+      "assumptions": [
+        "Provisional building footprints. Recalculate upon official site boundary release."
+      ]
     },
     "floor_area_ratio": {
       "status": "unknown",

@@ -6,333 +6,272 @@ proposal_format_version: "2"
 bilingual_contract_version: "1"
 translation_of: "proposal.md"
 license: "COMMUNITY-DISPLAY-ONLY"
-summary: "A youth-oriented urban renewal design proposal for three core areas along the 9km Jing-Zhang Railway Heritage Park green corridor, centered on 'micro-renewal, strong connections' with maximum retention and adaptive reuse."
+summary: "A comprehensive urban renewal design proposal centered on 'micro-renewal, strong connections' maximizing retention across three core districts along the 9km Jing-Zhang Railway Heritage Park green corridor, with full brand system, 7 global case studies, 10 scene cards, 3 industry test scenarios, 9 inclusive personas, and annual event operations."
 tracks: ["ai-traffic-walkability", "enterprise-services-ecosystem", "civic-agent-governance"]
 scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safety-operations-review"]
 ---
 
-# Centennial Jing-Zhang AI Innovation Belt — Micro-Renewal · Strong Connections · Youth-Friendly Urban Design
+# Centennial Jing-Zhang AI Innovation Belt — Micro-Renewal · Strong Connections · Youth-Friendly
 
-## 1. Design Framework
+## Design Basis
 
-### 1.1 Core Principles
+This proposal takes the official Prequalification Announcement as its primary basis [source:OFFICIAL-ANNOUNCEMENT] and the provisional boundary, enumerations, ranges, and sources in `brief/site-package/` as machine-readable basis [source:AGENT-TASKBOOK] [depth:existing_conditions_diagnosis]. Complete source mapping in `sources.json` and `standard_matrix.json`.
 
-This proposal is anchored in **"Micro-Renewal, Strong Connections"** — rejecting large-scale demolition in favor of precise acupuncture-style interventions that maximize retention and adaptive reuse of existing buildings, parks, and cultural heritage across all three districts.
+## Three-Level Scope Framework
 
-**Three Principles:**
+The proposal organizes work across three announced levels: Coordinated Research Scope (43.6 km²), Overall Design Scope (11.4 km²), and Key Area Detailed Design Scope (368.4 ha) [depth:three_level_scope_framework]. Spatial evidence: [data:geometry/site_boundary.geojson#SITE-001].
+
+## Strategic Industry and Urban Form Research
+
+Core task: building a world-class AI innovation ecosystem through the spatial framework of "university sourcing → open-source collaboration → enterprise transformation → public experience → international dissemination" [source:AGENT-TASKBOOK] [standard:PROJECT-OFFICIAL-ANNOUNCEMENT].
+
+---
+
+## 1. Design Framework — Micro-Renewal · Strong Connections
+
+### Core Principles
 
 | Principle | Content | Spatial Implementation |
 |-----------|---------|----------------------|
-| **Maximum Retention & Reuse** | Retain all high-quality R&D buildings, existing parks, railway heritage, and native vegetation | 15 retained buildings, 5 retained parks |
-| **Youth-Friendly Orientation** | Core design parameters: sports, social, commute, and leisure needs of AI professionals, university students, and entrepreneurs | 3 differentiated skate parks, 11 new public spaces |
-| **Blue-Green Ecological Continuity** | Continuous ecological and slow-traffic connection along the 9km Jing-Zhang Railway Heritage Park green corridor | Cycling + Running + Walking "Three Paths, One Green" — 9km total |
+| Maximum Retention & Reuse | Retain all quality buildings, parks, heritage, vegetation | 15 buildings + 5 parks retained |
+| Youth-Friendly | AI professionals, students, entrepreneurs: sports, social, commute, leisure | 3 skate parks, 11 new public spaces |
+| Blue-Green Continuity | 9km Jing-Zhang Heritage Park green corridor ecological connection | "Three Paths, One Green" cycling+running+walking |
 
-### 1.2 Retain-Renovate-New Inventory
+### Retain-Renovate-New
 
-| Category | Count | Description |
-|----------|-------|-------------|
-| **Retain** | 15 buildings + 5 parks | All 5 Xuebei Park R&D buildings, Tsinghua Science Park, Zhiyuan Tower, Dongsheng Tower, Dazhongsi Sports Park facilities |
-| **Renovate** | 8 interventions | Ground floor gray-space optimization (5 buildings), facade opening, commercial activation |
-| **New** | 11 lightweight structures | Railway Memory Pavilion, Open Source Forum, Ancient Bell Station, Youth Lawn Kiosk, Sunken Plaza Youth Center, Bowl Skate Kiosk — all single-story |
+| Category | Count | Detail |
+|----------|-------|--------|
+| Retain | 15 buildings + 5 parks | 5 Xuebei Park R&D + Tsinghua Science Park + Zhiyuan Tower + Dongsheng Tower + Dazhongsi Sports Park |
+| Renovate | 8 | Ground floor gray-space (5), facade opening, commercial activation, track night-glow |
+| New | 11 lightweight | Railway Memory Pavilion, Open Source Forum, Bell Culture Station, Youth Lawn Kiosk, Sunken Plaza Youth Center, Bowl Kiosk — all single-story 3-7m |
 
-![Retain-Renovate-New Overview](assets/figures/site-overview.png)
+![Overview](assets/figures/site-overview.en.png)
 
-### 1.3 Data Basis & Boundary Disclaimer
+## Overall Design Scope: Urban Renewal at Planning Depth
 
-This proposal uses provisional boundary polygons (`official_boundary=false`) for design generation and discussion only. All spatial metrics require recalculation upon release of official polygons.
+Regulatory detailed planning depth per [standard:MOHURD-CONTROL-DETAILED-PLANNING], decomposed into reviewable objects: land use [data:geometry/land_use.geojson#LU-001], buildings [data:geometry/buildings.geojson#BLDG-ZZY-01], depth constraints [depth:land_use_layout] and [depth:development_intensity_controls].
 
----
+## Key Area Detailed Design
 
-## 2. North: Zhongzhi Park AI Innovation Acceleration Zone
-
-### 2.1 Existing Conditions
-
-Core carrier: Zhongguancun Dongsheng Science Park · Xuebei Park. Total GFA: 238,300 m², comprising 5 R&D office buildings with ancillary podium (Green Building 3-Star certified). Features a sunken ecological plaza, two podium rooftop sky gardens, 4,000 m² staff canteen, and 18,500 m² commercial space. Bordered by Qinghe River (north) and Xiaoyue River (east).
-
-### 2.2 Design Strategy: Garden-Style Full-Stack Autonomous Innovation District
-
-#### Building Strategy — Full Retention + Ground-Floor Micro-Renovation
-
-All 5 R&D buildings retained without structural modification. Design focuses on ground-floor-to-outdoor transition optimization:
-- **Gray space additions**: 2.5-3m deep canopies or perforated-panel shading at each building entrance
-- **Commercial interface extension**: Ground-floor F&B/retail install folding floor-to-ceiling windows opening toward the plaza
-- **Sunken plaza visual connection**: Buildings B/C ground floor replace select solid walls with large glass curtain walls facing the plaza
-
-| Building ID | Name | Floors | Status | Ground-Floor Optimization |
-|-------------|------|--------|--------|--------------------------|
-| BLDG-ZZY-01 | Xuebei Park R&D A | 12F/48m | retain | Café outdoor seating + co-working lobby |
-| BLDG-ZZY-02 | Xuebei Park R&D B | 10F/40m | retain | Sky garden bridge connection |
-| BLDG-ZZY-03 | Xuebei Park R&D C | 10F/40m | retain | Sunken plaza visual permeability |
-| BLDG-ZZY-04 | Xuebei Park R&D D | 8F/32m | retain | Tree-shaded side courtyard |
-| BLDG-ZZY-05 | Xuebei Park R&D E | 8F/32m | retain | Riverside open interface |
-
-#### Sunken Plaza — Youth Social Core
-
-- **Sunken Plaza Youth Center**: ~200 m² lightweight semi-outdoor structure (steel + membrane roof), café bar, shared workbench, retractable projection screen — co-working by day, outdoor cinema by night
-- **Terrace Seating**: Wide wooden terraced seating utilizing level change, 100-150 capacity, for tech talks, open-source meetups, small performances
-- **Rain Garden Belt**: Linear rain gardens along plaza edge for ecological education
-
-#### Sky Garden — Rooftop Sports & Recreation
-
-- **Rooftop half-court basketball + 2 badminton court markings**: Suspended modular sports flooring (no additional structural load)
-- **Rooftop yoga/stretching zone**: Elastic paving on second podium, morning yoga and lunchtime stretching facilities
-- **Safety**: 4m transparent PC panel fencing + fall-protection netting
-
-#### Riverside Trail System
-
-- **Qinghe Riverside Walk** (3m wide, pervious concrete) + **Cycling Path** (2.5m wide, colored asphalt), ~800m total
-- 3 viewing/rest platforms (wood decking + shade trees + benches)
-- Connects to Jing-Zhang Green Corridor north entrance
-
-#### Sports & Pet Facilities
-
-- **Beginner Pump Track** (800 m²): Gentle undulating asphalt pump track for beginners and intermediate riders. Edged with grass viewing slopes
-- **Pet-Friendly Lawn** (600 m²): Fenced area with drinking fountain, waste bag station, small agility training equipment
+Three mandatory detailed design areas [depth:three_key_area_detailed_design]: Zhongzhi Park (192.1 ha), Wudaokou (104.3 ha), Dazhongsi (72.0 ha). Evidence: [data:geometry/key_areas.geojson#PROV-KEY-001] through PROV-KEY-003.
 
 ---
 
-## 3. Central: Wudaokou AI Origin Community
+## 2. North: Zhongzhi Park — Garden-Style Full-Stack Autonomous Innovation District
 
-### 3.1 Existing Conditions
+**Core Carrier**: Zhongguancun Dongsheng Science Park · Xuebei Park — 238,300 m² GFA, 5 R&D buildings, Green Building 3-Star, sunken plaza, two sky gardens, 4,000 m² canteen, 18,500 m² commercial. Qinghe River (north), Xiaoyue River (east).
 
-~1.4 km² district centered on Wudaokou, encompassing Tsinghua Science Park and multiple CAS research institutes. 1.3km Jing-Zhang Railway Heritage Park segment runs through the district. Planned 1.3ha new public green space and 3.4ha space enhancement. Adjacent to Heqing Garden (running track, cycling path, basketball courts) and the Jing-Zhang Green Corridor "Three Paths, One Green" slow-traffic space.
+**Building Strategy**: All 5 buildings retained. Ground-floor micro-renovation: 2.5-3m deep canopies, folding floor-to-ceiling windows opening toward plaza, glass curtain walls at B/C building facades facing sunken plaza.
 
-### 3.2 Design Strategy: Campus-Adjacent Tech Transfer & Talent Community
+| Building | Floors | Status | Optimization |
+|----------|--------|--------|-------------|
+| BLDG-ZZY-01 (A) | 12F/48m | retain | Café outdoor + co-working lobby |
+| BLDG-ZZY-02 (B) | 10F/40m | retain | Sky garden bridge |
+| BLDG-ZZY-03 (C) | 10F/40m | retain | Plaza visual permeability |
+| BLDG-ZZY-04 (D) | 8F/32m | retain | Tree-shaded courtyard |
+| BLDG-ZZY-05 (E) | 8F/32m | retain | Riverside open interface |
 
-#### Building Strategy — Retain Innovation Carriers + Ground Floor Publicization
-
-| Building ID | Name | Floors | Status | Optimization |
-|-------------|------|--------|--------|-------------|
-| BLDG-WDK-01 | Tsinghua Science Park | 18F/72m | retain | Open facade + achievement display windows |
-| BLDG-WDK-02 | Zhiyuan Tower | 15F/60m | retain | Open-source community entrance |
-| BLDG-WDK-03 | Dongsheng Tower | 12F/48m | retain | Commercial activation + tech transfer showcase |
-
-**Key Renovations:**
-- Tsinghua Science Park: Replace closed financial/property interfaces with transparent glass display windows showcasing AI prototypes and open-source projects — a "walkable innovation gallery"
-- Zhiyuan Tower: Add separate open-source collaboration space entrance at ground floor
-- Dongsheng Tower: Extend ground-floor commercial toward the Green Corridor, add tech transfer enterprise roadshow mini-stage
-
-#### "Three Paths, One Green" Main Axis
-
-Maximize the 1.3km Jing-Zhang Heritage Park segment:
-- **Running Path** (2m, synthetic track surface): East side, continuous
-- **Cycling Path** (3m, colored asphalt): West side, connecting to Heqing Garden
-- **Walking Path** (2.5m, permeable brick): Meandering center, flanked by rain gardens
-- **Railway Heritage Display Belt**: Retained rails, sleepers, signal lights with interpretive signage and AR checkpoints
-
-#### New 1.3ha Youth Activity Lawn
-
-Multi-functional design:
-- **Camping Zone** (NE corner): Tent camping permitted weekends/holidays, portable toilets and wash stations
-- **Market Zone** (center): Hardscape-grassland mosaic, weekend creative/farmers' markets
-- **Outdoor Yoga Zone** (SW corner, forest edge): Elastic paving for morning/evening sessions
-- **Lawn Concert Bowl**: Natural amphitheater formed by gentle slope, ~300 capacity
-
-Supporting **Youth Lawn Service Station** (~100 m² lightweight building): equipment rental, light F&B, restrooms.
-
-#### Sports — Street Skate Plaza & Cycling
-
-- **Street Skate Plaza** (1,200 m²): Concrete street-style plaza with stair sets, ledges, manual pads, flat bars. Positioned as the "street style" node in the three-district network
-- **Continuous Cycling Path**: Connecting Heqing Garden to the Jing-Zhang Green Corridor (~600m), sharrow markings on existing roads
-
-#### Pet-Friendly Space
-
-500 m² south of the youth lawn: 2 drinking fountains, 2 waste bag stations, small/large dog separation. 3 additional drinking stations along the 1.3km Green Corridor segment (one every ~400m).
-
-#### Railway Memory Innovation Pavilion
-
-~300 m², lightweight steel + glass curtain wall, elevated above existing rail tracks:
-- Immersive projection space: Jing-Zhang railway history, AI innovation belt vision, real-time open-source project dynamics
-- Low-resolution LED matrix facade: Content contributed by university students and AI enterprises
-- Free admission, community living room and AI cultural landmark
-
-#### Open Source Community Forum
-
-150 m² transparent glass box in Wudaokou core:
-- Achievement releases, demo days, code contribution showcases, small roadshow events
-- Reservable, community-operated
-- Transparent design makes internal activities visible to passersby, encouraging participation
+**Key Interventions**: Sunken Plaza Youth Center (~200 m² steel+membrane, café+co-working+outdoor cinema), Sky Garden rooftop sports (half-court basketball+badminton+yoga, 4m PC safety fencing), Qinghe Riverside Walk+Cycle Path (~800m, 3 viewing platforms), Beginner Pump Track (800 m²), Pet-Friendly Lawn (600 m², fenced).
 
 ---
 
-## 4. South: Dazhongsi AI Industry Cluster
+## 3. Central: Wudaokou — Campus-Adjacent Tech Transfer & Talent Community
 
-### 4.1 Existing Conditions
+**Core Carriers**: Tsinghua Science Park, Zhiyuan Tower, Dongsheng Tower. 1.4 km² district. 1.3km Jing-Zhang Heritage Park segment. Planned 1.3ha new green space. Heqing Garden and "Three Paths, One Green" corridor.
 
-Most mature public space base. Dazhongsi Sports Park: 30,694 m² total, 500m loop running track, standard basketball court (576 m²), 5v5 football field (1,536 m²), 4 table tennis tables, badminton courts (October 2026). Dazhongsi Shunxin Garden: 300m linear park with preserved native trees and cast-iron ancient bell. Jing-Zhang Railway Heritage Park Phase II runs through, serving ~70 nearby communities and ~450,000 residents, featuring children's climbing area. The railway bridge over the 3rd Ring Road must be retained.
+| Building | Floors | Status | Optimization |
+|----------|--------|--------|-------------|
+| BLDG-WDK-01 (Tsinghua SP) | 18F/72m | retain | Open facade + display windows |
+| BLDG-WDK-02 (Zhiyuan) | 15F/60m | retain | Open-source community entrance |
+| BLDG-WDK-03 (Dongsheng) | 12F/48m | retain | Commercial activation + tech transfer |
 
-### 4.2 Design Strategy: Urban Smart Economy & International Exchange District
+**Key Interventions**: "Three Paths, One Green" main axis (running 2m/cycling 3m/walking 2.5m + railway heritage display belt), 1.3ha Youth Activity Lawn (camping, market, yoga, concert bowl ~300 capacity + Service Station ~100 m²), Street Skate Plaza (1,200 m², street-style), Pet Space (500 m², 2 fountains, 2 bag stations), Railway Memory Innovation Pavilion (~300 m², lightweight steel+glass above tracks, LED matrix facade), Open Source Community Forum (150 m², transparent glass box, reservable, community-operated).
 
-#### Building Strategy — Full Park Facility Retention + Cultural Node Addition
+---
 
-**Retained:**
-- All Dazhongsi Sports Park facilities (complete retention)
-- All native trees and cast-iron bell in Shunxin Garden
-- Sports Park Service Center
+## 4. South: Dazhongsi — Urban Smart Economy & International Exchange District
 
-**New:**
-- **Ancient Bell Culture Station** (~150 m²): At the junction of Shunxin Garden and Sports Park. Corten steel facade (railway industrial memory). Interactive bell (scaled replica of original) for visitors to strike. Small exhibition + rest space
-- **Bowl Skate Park Kiosk** (~40 m²): Skate equipment rental, first aid, beverages
+**Core Assets**: Dazhongsi Sports Park (30,694 m²: 500m track, basketball 576 m², 5v5 football 1,536 m², 4 table tennis, badminton Oct 2026), Shunxin Garden (300m linear, preserved native trees + cast-iron bell), Jing-Zhang Heritage Park Phase II (70 communities, ~450,000 residents, children's climbing area), railway bridge over 3rd Ring Road (retained).
 
-#### Bowl Skate Park
-
-1,500 m² concrete bowl (1.2m-2.0m depth), shallow and deep sections:
-- Positioned as the "advanced bowl" node in the three-district youth extreme sports gradient
-- Spectator terraces (precast concrete blocks + wood surface), LED night lighting
-
-#### Sports Park Enhancements (on top of full retention)
-
-- **500m Loop Track**: 100m distance markers + photoluminescent night-running coating
-- **2 self-powered fitness checkpoints**: Heart rate and pace measurement (no personal data collection)
-- **Movable bleachers** (container conversion) between basketball court and football field
-
-#### Cycling Loop
-
-~1.2km connector loop linking Sports Park, Shunxin Garden, and Jing-Zhang Green Corridor:
-- Key node: Cycling underpass beneath the 3rd Ring Road bridge (utilizing existing bridge-under space)
-- Seamless interface with the Jing-Zhang Green Corridor main cycling path
-
-#### Pet Sun Lawn
-
-500 m² adjacent to the Sports Park sun lawn: fenced + open zones combined. Drinking fountain, waste bag station, shaded owner seating. Naturally separated from active sports areas by hedgerows.
-
-#### Cultural Heritage — Ancient Bell & Railway Industry
-
-- Full retention of Jing-Zhang Railway 3rd Ring Road bridge and all railway heritage
-- Corten steel facade + interactive bell at the Culture Station embody "New Sound of the Ancient Bell"
-- 3 sets of public benches crafted from reclaimed railway sleepers beneath Shunxin Garden's native tree canopy
-- Children's climbing area enhanced with a locomotive-shaped climbing structure
+**Key Interventions**: Bowl Skate Park (1,500 m², 1.2-2.0m depth concrete bowl, spectator terraces, LED lighting), 500m Track night-glow coating + 2 self-powered fitness checkpoints + movable container bleachers, Cycling Loop (~1.2km, 3rd Ring Road underpass), Ancient Bell Culture Station (~150 m², Corten steel, interactive bell), Pet Sun Lawn (500 m², fenced+open), Bowl Skate Kiosk (~40 m²).
 
 ---
 
 ## 5. Cross-District Systems
 
-### 5.1 Slow-Traffic System: "From Gas Pedal to Bike Pedal"
+### 5.1 Slow-Traffic
+| System | Length | Width | Material |
+|--------|--------|-------|----------|
+| Cycling Path | 9km | 3m | Colored asphalt (Jing-Zhang Blue) |
+| Running Path | 9km | 2m | Synthetic track (warm gray) |
+| Walking Path | 9km | 2.5m | Permeable brick/gravel |
 
-9km continuous cycling and running paths along Jing-Zhang Railway Heritage Park.
+Barrier crossings: 5th Ring (underpass), 4th Ring (Baofusi Bridge improvement), 3rd Ring (under-bridge cycling).
 
-| System | Length | Width | Material | Key Connections |
-|--------|--------|-------|----------|-----------------|
-| Cycling Path | 9km | 3m | Colored asphalt ("Jing-Zhang Blue") | Zhongzhi Park → Wudaokou → Dazhongsi → Xizhimen |
-| Running Path | 9km | 2m | Synthetic track (warm gray) | Smart fitness checkpoints in each district |
-| Walking Path | 9km | 2.5m | Permeable brick/gravel | Rain gardens and rest nodes along route |
+### 5.2 Youth Sports Network
+| District | Type | Area | Level |
+|----------|------|------|-------|
+| Zhongzhi Park | Pump Track | 800 m² | Beginner-Intermediate |
+| Wudaokou | Street Plaza | 1,200 m² | Intermediate |
+| Dazhongsi | Bowl | 1,500 m² | Advanced |
 
-**Key Cross-District Engineering:**
-- 5th Ring Road underpass: Bike/run passage beneath existing bridge
-- 4th Ring Road crossing: Connection improvement with Baofusi Bridge sidewalk
-- 3rd Ring Road crossing: Under-bridge cycling connection
-
-### 5.2 Youth Sports Network: Differentiated Extreme Sports System
-
-| District | Skate Park Type | Area | Difficulty | Target Users |
-|----------|----------------|------|------------|-------------|
-| Zhongzhi Park | Pump Track (Beginner) | 800 m² | Beginner-Intermediate | Park workers, learners |
-| Wudaokou | Street Plaza | 1,200 m² | Intermediate | University students, skate community |
-| Dazhongsi | Bowl | 1,500 m² | Advanced | Experienced skaters, competitions |
-
-~15 minutes cycling distance between venues — forming a "cycling-connected extreme sports corridor."
+~15-min cycling between venues.
 
 ### 5.3 Pet-Friendly System
+Three district zones (1,600 m²) + 5 Green Corridor supply points (~every 2km).
 
-| Location | Type | Area | Amenities |
-|----------|------|------|-----------|
-| Zhongzhi Park | Fenced activity lawn | 600 m² | Fountain, waste bags, agility equipment |
-| Wudaokou | Zoned pet space | 500 m² | 2 fountains, 2 bag stations, size separation |
-| Dazhongsi | Sun pet lawn | 500 m² | Fountain, waste bags, shaded seating |
-| **Green Corridor** | 5 supply points | — | Pet fountain + bag station every ~2km |
+### 5.4 Cultural Heritage
+Zhongzhi Park: Qinghe ecology + data-visualization water features. Wudaokou: University culture + railway memory + LED matrix + transparent forum. Dazhongsi: Ancient bell + railway industry + Corten steel + sleeper benches + locomotive climbing.
 
-### 5.4 Cultural Heritage System
-
-| District | Local Culture | Design Expression |
-|----------|--------------|-------------------|
-| Zhongzhi Park | Qinghe River ecology | Data-visualization water features, eco-education signage |
-| Wudaokou | University culture + railway memory | LED matrix facade, railway heritage belt, transparent open-source forum |
-| Dazhongsi | Ancient bell culture + railway industry | Corten steel station, sleeper benches, locomotive climbing structure |
-
-![Three-District Spatial Structure](assets/figures/key-areas.png)
+### 5.5 AI Scene Cards (10)
+See Chinese proposal for the complete 10-scene card table (01-AI Lunch Run, 02-Hackathon, 03-Rooftop League, 04-Cinema Night, 05-AR Exploration, 06-Pet Market, 07-Skate League, 08-Night Run, 09-Sound Art, 10-Global AI Open Day). Each card includes: spatial location, AI technology support, data source, privacy boundary, human review mechanism, operating entity, frequency.
 
 ---
 
-## 6. Metrics & Compliance
+## 6. Brand System
 
-### 6.1 Core Spatial Metrics
+- **Overall**: Jing-Zhang AI Nexus
+- **Belt**: Jing-Zhang Smart Symbiotic Belt
+- **Three Cores**: Zhongzhi Park · Qinghe North Bank Innovation Harbour / Origin Community · Wudaokou Knowledge Valley / Dazhongsi · 3rd Ring Smart Gateway
+- **Nodes**: Skate Parks, Pet Oases, Open Source Courtyards, Railway Memory Gallery, Bell Resonance, Glow Track
 
-| Metric | Value | Source | Confidence |
-|--------|-------|--------|-----------|
-| Overall Design Area | 11.4 km² | Official Announcement | high |
-| Retained Buildings | 15 | Public data | high |
-| New Buildings | 6 (lightweight) | Design proposal | medium |
-| Green Corridor Trail Continuity | 9km | Announcement + Design | high |
-| Total Cycling Paths | 9km (main) + 2.6km (branches) | Design | medium |
-| New Public Green Space | 1.3ha (Wudaokou) | Announcement | high |
-| Skate Park Total Area | 3,500 m² | Design | medium |
-| Pet Zone Total Area | 2,100 m² (incl. corridor) | Design | medium |
+**Logo**: Abstract "京" character — railway tracks merging into AI circuit traces, iron-gray → AI blue gradient.
 
-### 6.2 Compliance Note
+**Colors**: Primary Jing-Zhang Blue #2B5F8A | Secondary Qinghe Green #4A8C6F | Accent Innovation Orange #E87830 | Neutral Rail Gray #5A5A5A
 
-All new structures are single-story lightweight constructions (3-7m height). No large-scale demolition. Full task compliance mapped in `compliance_matrix.json`.
+**Typography**: Source Han Sans (Chinese headings, SIL OFL), Inter (English), system sans-serif (body).
 
 ---
 
-## 7. Phased Implementation
+## 7. Global Case Studies
 
-### Phase 1 (0-2 years): Trail Continuity + Pop-up Facilities + Activation
+| # | Case | Insight for Jing-Zhang |
+|---|------|----------------------|
+| 1 | King's Cross, London (67 acres) | Railway heritage reuse + industry-community symbiosis |
+| 2 | Kendall Square, Cambridge MA | 15-min walking innovation circle + talent housing mix |
+| 3 | one-north, Singapore (200 ha) | R&D-commercial-residential-green mixed programming |
+| 4 | DMC, Seoul (0.57 km²) | Brownfield regeneration + ultra-dense innovation nodes |
+| 5 | 22@Barcelona (200 ha) | Industrial plot micro-renewal + innovation-residential mix |
+| 6 | Nanshan S&T Park, Shenzhen (11.5 km²) | S&T corridor + river ecological stitching |
+| 7 | West Bund, Shanghai (11.4km) | Riverside industrial belt AI-art dual activation |
 
-7 projects including: Green Corridor 3-district trail continuity, three skate parks, pet zones, Youth Lawn opening, Sunken Plaza Youth Center.
-
-### Phase 2 (2-5 years): Ground Floor Optimization + Permanent Facilities + Cultural Nodes
-
-7 projects including: Building ground-floor gray-space optimization, Railway Memory Pavilion, Ancient Bell Culture Station, Open Source Forum, Qinghe riverside trail completion, track night-glow upgrade.
-
-### Phase 3 (5+ years): System Integration + Brand Operations
-
-5 projects including: Extreme sports network branding (3-district league system), Global AI Event Week route formalization, pet-friendly system corridor-wide completion, cycling path interconnection rating, railway heritage interpretive system.
-
-![Core Metrics Evidence Chain](assets/figures/metrics-evidence.png)
+**Conclusion**: Jing-Zhang's "9km railway heritage corridor + 3 top universities + Zhongguancun ecosystem" triad is globally unique — a linear AI ecosystem distinct from point renewal, campus concentration, or new town models.
 
 ---
 
-## 8. Transportation & Green Infrastructure
+## 8. Industry Test Scenarios
 
-- **Transit Station Connection**: Shared bike centralized parking zones (500-bike capacity each) at Wudaokou and Dazhongsi stations
-- **Traffic Barrier Solutions**: Under-bridge passages at 5th, 4th, and 3rd Ring Road crossings
-- **Green Infrastructure**: Distributed rain gardens every 200m along the 9km Green Corridor
+**A: Autonomous Model Safety Evaluation Sandbox** (Zhongzhi Park, ~300 m²): Controlled-environment model safety evaluation, red-team testing, standards compliance. Target: ≥5 models/quarter, CNAS-recognized.
 
-![Mobility & Blue-Green System](assets/figures/mobility-bluegreen.png)
+**B: Edge AI Computing Station Stress Test** (5 points along Green Corridor, ~20 m² each): Real-world edge AI chip performance verification (latency, energy, environmental adaptability). Target: <100ms response, >99.5% availability.
 
-![Land Use Structure & Ecological Framework](assets/figures/land-use-structure.png)
+**C: Urban Intelligence Traffic Optimization Experiment** (Wudaokou-Dazhongsi segment, 10 checkpoints + 5 sensors): Aggregated sensor data for crowd management and facility maintenance optimization. Target: <2hr fault response, 24hr advance holiday plans.
 
 ---
 
-## 9. Risk & Missing Data Declaration
+## 9. Inclusive Personas (9 Personas)
 
-| Independently Determinable | Requires Official Data Calibration | Requires Operational Validation |
-|---------------------------|-----------------------------------|-------------------------------|
-| Retain/new inventory, trail alignments, skate park sites, pet zone layout | FAR, building height, road redlines, regulatory planning conditions | Operating models, usage frequency, satisfaction |
+Open-source developers, startup teams, enterprise visitors, local residents, university students/faculty, **elderly** (morning exercise, barrier-free, large-text signage, rest pavilions every 200m), **children** (climbing, nature education, soft surfaces, non-toxic materials), **persons with disabilities** (tactile paving, voice navigation, wheelchair ramps ≤5%, elevators, hearing loops), **low-income entrepreneurs** (zero-cost entry, tiered pricing, community skill exchange).
 
-This proposal does not claim official approval, ratified regulatory planning, final land ownership, or guaranteed implementation.
+---
+
+## 10. Regional Collaboration
+
+| Direction | Partner | Division | Mechanism |
+|-----------|---------|----------|-----------|
+| North Wing | Future Science City | Basic research → tech transfer | Quarterly matchmaking, shared lab platform |
+| South Wing | Huairou + E-Town | Algorithms → apps → manufacturing | Annual summit, cross-district computing scheduling |
+| Jing-Jin-Ji | Xiong'an + Tianjin + Langfang | Beijing sourcing → regional application | Coordinated planning, cross-border data pilot |
+
+Xiaoyue River Experience Path: ~5km "AI Evolution Road" from Zhongzhi Park southward through Wudaokou to Dazhongsi — North: AI milestone pillars (1956 Dartmouth→2026 contemporary), Central: open-source "knowledge spillover" interactive installations, South: AI-from-lab-to-life application exhibits.
+
+---
+
+## 11. Landmarks and Component Library
+
+**Three Landmarks**: Qinghe North Bank Observation Tower (30m spiral steel, data-viz LED ring), Open Source Light (8m LED matrix cube, university/enterprise contributed), Bell Resonance (12m Corten steel bell tower, 1:3 interactive bell, night projection).
+
+**Component Library**: Mobility (distance markers, cycling stops, benches), Ecological (rain gardens, permeable paving, bioswales), Sports (skate modules, pump track modules, street elements, half-court basketball), Service (pet fountains, fitness checkpoints, bike racks).
+
+---
+
+## 12. Accessibility Strategy
+
+- 9km Green Corridor: ramps ≤5%, width ≥1.8m, rest platforms every 500m
+- Continuous tactile paving + ≥20 voice navigation posts
+- Wheelchair viewing areas at all skate parks, elevators/ramps at all landmarks
+- Child-friendly: soft surfaces, parent visibility, non-toxic materials, fencing
+- Elderly-friendly: low-intensity equipment, rest pavilions every 200m, large-text signage
+- Digital inclusion: offline versions, age-friendly large-text interfaces, text+audio dual information
+
+---
+
+## 13. Copyright Ledger
+
+See `report/copyright_statement.md` (complete per-asset ledger) and `sources.json` (13 registered sources).
+
+**Status**: ✅ Python deps (Pillow/MIT, Shapely/BSD, PyProj/MIT, jsonschema/MIT), OSM data (ODbL), government public info — cleared. ⚠️ Font embedding (replace with SIL OFL before final). All content AI-agent original or public-data derived. No remote scripts, map tiles, web fonts, or external APIs.
+
+---
+
+## 14. Annual Event System
+
+**Unified Brand**: "Jing-Zhang AI Greenway"
+
+| Frequency | Event | Venue | Scale |
+|-----------|-------|-------|-------|
+| Daily | AI Lunch Run Club | 9km track | 50-200 |
+| Weekly (Fri) | Outdoor Cinema Night | Sunken Plaza | 100-300 |
+| Biweekly | Open Source Hackathon | Open Source Forum | 50-150 |
+| Monthly | Rooftop Sports League + Glow Track Trial | Sky Garden + Dazhongsi | 100-300 each |
+| Bimonthly | Pet Social Weekend Market | Three pet zones | 200-500 |
+| Quarterly | Skate League + Sound Art Festival + AI Roadshow | Three skate parks + Shunxin Garden + Forum | 100-2,000 |
+| Annual | **Global AI Open Day** + **Railway Culture Week** + **AI Urban Design Forum** | Green Corridor full route | 5,000-20,000 |
+
+**Governance**: Sports (District Sports Bureau), Culture (Culture & Tourism Bureau + curators), Open Source (community committee: university+enterprise+resident), Pet (third-party professional), International (Foreign Affairs + Science & IT Bureau).
+
+---
+
+## 15. Metrics and Phasing
+
+### Core Metrics
+| Metric | Value | Confidence |
+|--------|-------|-----------|
+| Design Area | 11.4 km² | high |
+| Retained Buildings | 15 | high |
+| New Structures | 6 lightweight | medium |
+| Green Corridor Trail | 9km | high |
+| Cycling Total | 11.6km | medium |
+| Skate Parks | 3,500 m² | medium |
+| Pet Zones | 2,100 m² | medium |
+
+### Phasing
+- **Phase 1 (0-2yr)**: Trail continuity, 3 skate parks, pet zones, youth lawn, sunken plaza center (7 projects)
+- **Phase 2 (2-5yr)**: Ground floor optimization, Railway Pavilion, Bell Station, Open Source Forum (7 projects)
+- **Phase 3 (5yr+)**: Sports league, AI Open Day route, pet system completion, heritage system (5 projects)
+- **TOTAL**: 19 projects
+
+---
+
+## Risk Declaration
+
+Official site boundary and key area polygons are provisional. All spatial metrics require recalculation upon official redline release. Missing: road redlines, utility plans, building ownership data, heritage protection boundaries, flood control standards. This proposal does not claim official approval, ratified planning, final land ownership, or guaranteed implementation.
+
+![Metrics Evidence](assets/figures/metrics-evidence.en.png)
+![Mobility Blue-Green System](assets/figures/mobility-bluegreen.en.png)
+![Land Use Structure](assets/figures/land-use-structure.en.png)
+![Key Areas Detail](assets/figures/key-areas.en.png)
 
 ---
 
 ## References
 
-- Prequalification Announcement for International Solicitation of Urban Design Proposals for Centennial Jing-Zhang AI Innovation Belt [source:DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509]
+- Official Announcement [source:DATA-SRC-OFFICIAL-ANNOUNCEMENT-20260509]
 - Agent Task Book [source:DATA-SRC-AGENT-TASKBOOK-20260518]
-- Provisional Boundaries GeoJSON [source:DATA-SRC-PROVISIONAL-BOUNDARIES-20260605]
-- data/processed/agent_fact_pack.md
-- Full machine index: `sources.json`, `metrics.json`, `compliance_matrix.json`, `standard_matrix.json`, `design_depth_matrix.json`
+- Provisional Boundaries [source:DATA-SRC-PROVISIONAL-BOUNDARIES-20260605]
+- agent_fact_pack.md, project_scope_summary.csv, missing_data_checklist.csv
+- Global cases: public planning documents, academic literature, official district websites
+- Site info: developer materials, government park announcements, planning public notices, news reports
+- Machine index: `sources.json`, `metrics.json`, `compliance_matrix.json`, `standard_matrix.json`, `design_depth_matrix.json`
 
-<!-- revision: 2026-08-10-v3-smart-green-corridor-comprehensive -->
-<!-- f1 -->
-
-<!-- BH2:x61b32199 -->
-<!-- B:d46538c4:2 -->
-<!-- Z:5f03f95b:2 -->
-<!-- e93e996e -->
-<!-- 3158b695 -->
-<!-- 135788f8 -->
-<!-- 0630dfa2 -->
-<!-- 060ee593 -->
-<!-- 1e7190bb -->
-<!-- e9a2b1cc -->
-<!-- d66db136 -->
+<!-- revision: 2026-08-10-v4-comprehensive-en -->

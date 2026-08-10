@@ -42,6 +42,41 @@
       "path": "brief/site-package/agent_taskbook.json",
       "source_type": "user_provided_cleared",
       "usage": "Agent-facing open-call principles, six required agent tasks, scenario/branding/operation requirements, and boundary clause."
+    },
+    {
+      "id": "PUBLIC-CASE-STUDIES",
+      "source_type": "agent_inferred_from_public_data",
+      "usage": "Global AI innovation district case studies (King's Cross, Kendall Square, one-north, DMC Seoul, 22@Barcelona, West Bund Shanghai, Nanshan S&T Park) sourced from publicly available planning documents, academic literature, and official district websites. Used for comparative reference only."
+    },
+    {
+      "id": "PUBLIC-SITE-INFO-ZHONGZHIYUAN",
+      "source_type": "agent_inferred_from_public_data",
+      "usage": "Zhongzhiyuan Xuebei Park publicly disclosed building specifications (GFA 238,300 sqm, 5 R&D buildings, Green Building 3-Star, sunken plaza, sky gardens, commercial area) from developer promotional materials and planning public notices."
+    },
+    {
+      "id": "PUBLIC-SITE-INFO-DAZHONGSI",
+      "source_type": "agent_inferred_from_public_data",
+      "usage": "Dazhongsi Sports Park (30,694 sqm, 500m track, courts) and Shunxin Garden (300m, native trees, cast-iron bell) publicly disclosed specifications from Haidian District government park opening announcements and news reports."
+    },
+    {
+      "id": "PUBLIC-SITE-INFO-WUDAOKOU",
+      "source_type": "agent_inferred_from_public_data",
+      "usage": "Wudaokou district public information: 1.4 sqkm area, Tsinghua Science Park, CAS institutes, 1.3km Jing-Zhang Heritage Park segment, planned 1.3ha new green space from planning public notices."
+    },
+    {
+      "id": "PUBLIC-SITE-INFO-JINGZHANG-CORRIDOR",
+      "source_type": "agent_inferred_from_public_data",
+      "usage": "Jing-Zhang Railway Heritage Park 9km green corridor, Three Paths One Green design, Phase II service coverage (70 communities, 450,000 residents) from Beijing Municipal planning documents and news reports."
+    },
+    {
+      "id": "MOHURD-URBAN-DESIGN-MEASURES",
+      "source_type": "official_public",
+      "usage": "National urban design measures for urban character, public space, and building layout coordination (MOHURD). Used as professional standard reference."
+    },
+    {
+      "id": "MNR-LAND-USE-CLASSIFICATION",
+      "source_type": "official_public",
+      "usage": "National land use classification guide (MNR 2023) for land use coding in geometry layers."
     }
   ]
 }

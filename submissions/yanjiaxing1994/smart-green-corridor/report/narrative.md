@@ -11,6 +11,3 @@ This narrative is derived from the structured AI package. Geometry, metrics, com
 <!-- 135788f8 -->
 <!-- 0630dfa2 -->
 <!-- 060ee593 -->
-<!-- 1e7190bb -->
-<!-- e9a2b1cc -->
-<!-- d66db136 -->
