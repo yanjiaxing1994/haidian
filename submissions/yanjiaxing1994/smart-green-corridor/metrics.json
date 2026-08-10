@@ -29,30 +29,6 @@
       "confidence": "medium",
       "assumptions": []
     },
-    "green_ratio": {
-      "status": "known",
-      "value": 0.123423,
-      "unit": "ratio",
-      "source_files": [
-        "geometry/green_space.geojson",
-        "geometry/site_boundary.geojson"
-      ],
-      "formula": "green_space_area_sqm / site_area_sqm",
-      "confidence": "medium",
-      "assumptions": []
-    },
-    "public_space_ratio": {
-      "status": "known",
-      "value": 0.073281,
-      "unit": "ratio",
-      "source_files": [
-        "geometry/public_space.geojson",
-        "geometry/site_boundary.geojson"
-      ],
-      "formula": "public_space_area_sqm / site_area_sqm",
-      "confidence": "medium",
-      "assumptions": []
-    },
     "floor_area_ratio": {
       "status": "unknown",
       "value": null,
@@ -75,6 +51,36 @@
       "formula": "count(key_detailed_design_areas)",
       "confidence": "high",
       "assumptions": []
+    },
+    "green_ratio": {
+      "status": "known",
+      "value": 0.114827,
+      "unit": "ratio",
+      "source_files": [
+        "geometry/green_space.geojson",
+        "geometry/site_boundary.geojson"
+      ],
+      "formula": "green_space_area_sqm / site_area_sqm",
+      "confidence": "low",
+      "assumptions": [
+        "Provisional boundary used. Recalculate upon official redline release."
+      ],
+      "reason": "Computed from provisional geometry layers."
+    },
+    "public_space_ratio": {
+      "status": "known",
+      "value": 0.005825,
+      "unit": "ratio",
+      "source_files": [
+        "geometry/public_space.geojson",
+        "geometry/site_boundary.geojson"
+      ],
+      "formula": "public_space_area_sqm / site_area_sqm",
+      "confidence": "low",
+      "assumptions": [
+        "Provisional boundary used. Recalculate upon official redline release."
+      ],
+      "reason": "Computed from provisional geometry layers."
     }
   }
 }
