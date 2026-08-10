@@ -7,14 +7,14 @@ license: "COMMUNITY-DISPLAY-ONLY"
 summary: "Start with a reversible First Hundred Metres acceptance segment, then scale urban AI only through public choice, human takeover, appeal and replay."
 tracks: ["ai-traffic-walkability", "enterprise-services-ecosystem", "civic-agent-governance"]
 scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safety-operations-review"]
-version: "2.7"
-iteration: 14
+version: "2.9"
+iteration: 15
 proposal_format_version: "2"
 ---
 
 # Jing-Zhang Civic AI Loop: An Open Belt for Verifiable Urban Agents
 
-v2.7 visual-evidence recovery edition. It preserves the formally verified v2.4 content baseline and rebuilds the reviewer-facing figures and professional drawing set. It leads with one walkable, stoppable and replayable spatial prototype before the whole-belt system. Spatial figures still use repository provisional geometry with low aggregate confidence; they are not official redlines, statutory controls or precise-area claims. Asset rights and generation lineage are in `report/copyright_statement.md`; version differences are in `changelog.md`.
+v2.9 counter-evidence gate edition. It leads with one walkable, stoppable and replayable spatial prototype before the whole-belt system. The package has just tested itself for field readiness: all six prerequisites remain unresolved, so the result is `BLOCKED_BEFORE_G2`, not “ready to deploy”. Spatial figures still use repository provisional geometry with low aggregate confidence; they are not official redlines, statutory controls or precise-area claims. Asset rights and generation lineage are in `report/copyright_statement.md`; version differences are in `changelog.md`.
 
 Motto: Every urban intelligence must withstand public scrutiny.
 
@@ -23,6 +23,16 @@ Motto: Every urban intelligence must withstand public scrutiny.
 ## Executive brief: build the first hundred metres before promising eleven kilometres
 
 The century-old Jing-Zhang corridor does not need another AI showcase. It needs a public place where anyone can decide whether an urban AI deserves to enter the city. The Loop translates railway stations, lines, timetables and hand-offs into four civic rights: entry, human takeover, appeal and exit. Zhongzhiyuan tests safety and the stack; AI Origin Community translates prototypes into public services; Dazhongsi tests everyday and consumer rights; the two wings connect professional support and controlled urban scenarios. [source:AGENT-TASKBOOK] [depth:three_level_scope_framework]
+
+**Start with a certificate of refusal.** This proposal does not confuse a complete submission with a field-ready project. `node visual/assets/run-readiness-gate.js` reads the package itself, not an author score: geometry is provisional, the constraints layer has zero features, the accountable operator is unconfirmed, data governance is pending, no field baseline exists, and P1–P3 are unexecuted protocols. The result is 0/6 passed and 6/6 blocked, written to `readiness-gate-evidence.json`. [metric:field_readiness_blocker_count] [metric:field_readiness_pass_ratio]
+
+This refusal is an implementation interface, not self-dismissal. Each BLOCK can change only when the responsible human provides traceable evidence; even then, the script merely admits the case to human G2 review and never grants legal, engineering or field authority. By contrast, the existing P1 synthetic replay proves only that protocol branches, shutdown, deletion and rollback are repeatable. It cannot cancel a field blocker. **A protocol that runs and a city service allowed to run are different claims.**
+
+|Verified blocker in this package|Current state|Evidence required to clear it|
+|---|---|---|
+|spatial legality|provisional boundary; zero constraint features|official geometry and verified title/heritage/utilities/fire ledger|
+|responsibility and data|operator pending; governance pending|named authorised roles; approved legal basis, fields and retention|
+|outcomes and authority|field baseline pending; protocols not executed|non-AI and worst-group baseline, lawful authorisation and field sign-off|
 
 **The only launch action is the “First Hundred Metres Civic Acceptance Segment” at AI Origin Community.** It is a reversible retrofit to an existing walking chain, not a miniature technology park. The entrance gives equal visibility to ordinary and AI-assisted routes; the middle provides a safe stopping bay, paper task ticket and visible staffed desk; the end provides an independent appeal point, version-status board and Run Receipt. If every model and device is removed, continuous walking, rest, lighting, staffed service and railway interpretation still work. “First Hundred Metres” names the first continuous acceptance unit; its actual length, width, gradient, location and quantities remain subject to official geometry, field audit and professional verification. [depth:detailed_public_space_design] [assumption:A-BOUNDARY-001]
 

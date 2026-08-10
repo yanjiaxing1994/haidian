@@ -7,14 +7,14 @@ license: "COMMUNITY-DISPLAY-ONLY"
 summary: "先以AI原点社区第一百米公共验收段验证普通路径、人工接管、申诉与复演，再把城市AI扩展为京张沿线可进入、可拒绝、可退出的公共基础设施。"
 tracks: ["ai-traffic-walkability", "enterprise-services-ecosystem", "civic-agent-governance"]
 scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safety-operations-review"]
-version: "2.7"
-iteration: 14
+version: "2.9"
+iteration: 15
 proposal_format_version: "2"
 ---
 
 # 京张共智环：可验证城市智能体开放带
 
-v2.7 视觉证据恢复版｜先交付一个能被走完、被叫停、被复演的空间原型，再展开全带系统。空间数值与图形仍基于仓库 provisional geometry，聚合数据置信度为 low；不是官方红线、法定控制或精确面积依据。逐资产权利与生成链见 `report/copyright_statement.md`，版本差异见 `changelog.md`。
+v2.9 反证闸门版｜先交付一个能被走完、被叫停、被复演的空间原型，再展开全带系统。本包刚刚对自己执行了部署就绪检查：6 项前置条件全部未满足，因此结论是 `BLOCKED_BEFORE_G2`，不是“已可落地”。空间数值与图形仍基于仓库 provisional geometry，聚合数据置信度为 low；不是官方红线、法定控制或精确面积依据。逐资产权利与生成链见 `report/copyright_statement.md`，版本差异见 `changelog.md`。
 
 英文名：Jing-Zhang Civic AI Loop；口号：让每一次城市智能，都经得起公众检验。
 
@@ -23,6 +23,16 @@ v2.7 视觉证据恢复版｜先交付一个能被走完、被叫停、被复演
 ## 一页执行摘要：先做“第一百米”，再谈十一公里
 
 核心判断。 百年京张最稀缺的不是另一条 AI 展示轴，而是一段任何人都能亲自判断“这项智能是否值得进入城市”的公共验收空间。共智环把铁路的站、线、时刻与交接语法转译为城市 AI 的进入、接管、申诉与退出：北段众智园验证安全与全栈，中段 AI 原点社区把原型转成公共服务，南段大钟寺检验日常体验与消费权益；两翼分别连接专业服务和受控场景。[source:AGENT-TASKBOOK] [depth:three_level_scope_framework]
+
+**先展示一张不通过证。** 本方案没有把“材料齐全”冒充“可以进场”。命令 `node visual/assets/run-readiness-gate.js` 直接读取本包，而不是读取作者自评：边界来源仍为 provisional、约束图层为 0 个要素、运营责任人未确认、数据治理未审定、现场基线不存在、P1—P3 仅为未执行协议。结果为 0/6 通过、6/6 阻断，机器证据写入 `readiness-gate-evidence.json`。[metric:field_readiness_blocker_count] [metric:field_readiness_pass_ratio]
+
+这份“不通过”不是自我否定，而是本案最关键的实施接口：只有相应责任人用可追溯证据逐项把 BLOCK 改为 PASS，G2 才进入人工审议；脚本本身从不签发施工、法律或现场授权。与之相对，现有 P1 合成桌面复演只能证明分支、停机、删除和回滚机制可重跑，不能抵消任何现场阻断。**协议能跑通，与城市可以开跑，是两件事。**
+
+|本包实测阻断|当前可复核状态|解除阻断所需证据|
+|---|---|---|
+|空间合法性|provisional 边界；约束图层 0 要素|官方边界、权属/文保/市政/消防等专业台账|
+|责任与数据|运营主体 pending；数据治理 pending|具名有权责任人、法律基础、字段与期限批准|
+|效果与授权|现场基线 pending；协议 not executed|非AI与最差组基线、依法授权、现场签署|
 
 **唯一首发动作：AI 原点社区“第一百米公共验收段”。** 它不是缩小版园区，而是一条现状慢行链上的可撤回微更新。入口先给出普通路径与 AI 辅助路径；中段设置安全停靠、纸面任务票和可见人工台；终点设置独立申诉、版本状态牌与 Run Receipt 打印。设备断电或模型撤除后，连续步行、休息、照明、人工服务和铁路叙事仍然成立。具体长度、净宽、坡度、点位和工程量均待 official geometry、现场走测及专业校核后确定，“第一百米”是首个连续验收单元的设计名，不是未经核实的测量结论。[depth:detailed_public_space_design] [assumption:A-BOUNDARY-001]
 

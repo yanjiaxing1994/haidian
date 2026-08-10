@@ -495,6 +495,38 @@
       "assumptions": [
         "A-LANDMARKS-001"
       ]
+    },
+    "field_readiness_blocker_count": {
+      "status": "known",
+      "value": 6,
+      "unit": "count",
+      "source_files": [
+        "visual/assets/readiness-gate-evidence.json"
+      ],
+      "formula": "count(checks where pass=false)",
+      "confidence": "high",
+      "assumptions": [
+        "A-BOUNDARY-001",
+        "A-DATA-001",
+        "A-OPERATIONS-001",
+        "A-PERFORMANCE-001"
+      ]
+    },
+    "field_readiness_pass_ratio": {
+      "status": "known",
+      "value": 0.0,
+      "unit": "ratio",
+      "source_files": [
+        "visual/assets/readiness-gate-evidence.json"
+      ],
+      "formula": "passed readiness checks / 6 required checks",
+      "confidence": "high",
+      "assumptions": [
+        "A-BOUNDARY-001",
+        "A-DATA-001",
+        "A-OPERATIONS-001",
+        "A-PERFORMANCE-001"
+      ]
     }
   }
 }
